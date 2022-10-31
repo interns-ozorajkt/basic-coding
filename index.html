@@ -4,23 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan 1</title>
+    <title>Basic Coding Example</title>
 </head>
 <body>
     <div class="container">
         <div id="logo">                  
-            <a href="#">Photo Book</a>
+            <a href="#">Project Untitled</a>
         </div>
-
+        
+        <!-- Banner Start -->
         <div id="banner">            
             <img src="https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" />
         </div>
+        <!-- Banner End -->
 
+        <!-- Index Start -->
         <div id="index">            
-            <h2>Index</h2>
+            <h2>Introduction</h2>
+            <p>This is an example of a simple HTML Page</p>
+
+            <h3>Table of Contents</h3>
             <ol>
-                <li></li>
+                <li><a href="#img-p">Image & Paragraph</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li>What else is in a HTML page?</li>
             </ol>
+        </div>
+        <!-- Index End -->
+
+        <div id="img-p">
+            <h2>Image & Paragraph</h2>
+            <p>This is a sample of a paragraph and an image in one section. Have you ever tried writing a long single paragraph for placeholder without Lorem Ipsum? It's understandably very tedious and prone to typo unlike Lorem Ipsum which you can use with a simple Ctrl + C and Ctrl + V</p>
+            <p>Look! A picture with external source (pexel)</p>
+            <img src="https://images.pexels.com/photos/13313434/pexels-photo-13313434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="External Source Img">
+            <p>Now this one is an example of image from this project's folder</p>
+            <img src="img/banquet-hall.png" alt="External Source Img">            
+            <p>It's pretty neat!</p>
+        </div>
+
+        <div id="tables">
+            <h2>An example of table</h2>
+            <table>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Favorite Animal</th>
+                </tr>
+                <tr>
+                  <td>Beau</td>
+                  <td>Carnes</td>
+                  <td>cow</td>
+                </tr>
+                <tr>
+                  <td>Quincy</td>
+                  <td>Larson</td>
+                  <td>dog</td>
+                </tr>
+              </table>
+              <p><code>&lt;tr&gt;</code> means <strong>table row</strong>,<code>&lt;th&gt;</code> is <strong>table head</strong>  and <code>&lt;tr&gt;</code> stands for <strong>table data</strong>. For more thorough reading as always you can read at <a href="http://https://www.w3schools.com/html/html_tables.asp" target="_blank" rel="noopener noreferrer">this link</a></p>
         </div>
     </div>
 

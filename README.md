@@ -1,3 +1,3 @@
 # basic-coding
 
-Introduction to basic <html>
+Introduction to basic html

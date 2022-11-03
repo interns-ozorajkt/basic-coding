@@ -6,26 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Coding Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
-    <div class="container">
-        <div id="logo">
-            <a href="#">Project Untitled</a>
+<body id="example">
+    <div id="menu">        
+        <div class="logo">
+            <a href="#" class="font-pacifico"><span>Project Untitled</span></a>        
         </div>
+        <a href="../" class="home"><span><i class="ri-home-5-line"></i></span></a>
+    </div> 
+    <div class="container">
+        
+        <h1>Introduction</h1>
+        <p>This is an example of a simple HTML Page</p>
 
         <!-- Banner Start -->
         <div id="banner">
             <img
                 src="https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" />
-        </div>
+        </div>        
+        <div class="caption">This is a sample caption</div>
         <!-- Banner End -->
 
         <!-- Index Start -->
         <div id="index">
-            <h2>Introduction</h2>
-            <p>This is an example of a simple HTML Page</p>
-
             <h3>Table of Contents</h3>
             <ol>
                 <li><a href="#img-p">Image & Paragraph</a></li>
@@ -39,12 +45,16 @@
             <h2>Image & Paragraph</h2>
             <p>This is a sample of a paragraph and an image in one section. Have you ever tried writing a long single
                 paragraph for placeholder without Lorem Ipsum? It's understandably very tedious and prone to typo unlike
-                Lorem Ipsum which you can use with a simple Ctrl + C and Ctrl + V</p>
+                Lorem Ipsum which you can use with a simple <span class="highlighted">Ctrl + C</span> and<span class="highlighted">Ctrl + V</span></p>
             <p>Look! A picture with external source (pexel)</p>
-            <img src="https://images.pexels.com/photos/13313434/pexels-photo-13313434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            <div class="photo">                
+                <img src="https://images.pexels.com/photos/13313434/pexels-photo-13313434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="External Source Img">
+            </div>
             <p>Now this one is an example of image from this project's folder</p>
-            <img src="img/banquet-hall.png" alt="External Source Img">
+            <div class="photo">                
+                <img src="../xyz-zoo/img/owl.jpg" alt="External Source Img">
+            </div>
             <p>It's pretty neat!</p>
         </div>
 
@@ -68,9 +78,9 @@
                 </tr>
             </table>
             <p>A table example stolen from <a href="https://www.freecodecamp.org/news/html-crash-course/"
-                    target="_blank" rel="noopener noreferrer">freecodecamp</a> <code>&lt;tr&gt;</code> means
-                <strong>table row</strong>,<code>&lt;th&gt;</code> is <strong>table head</strong> and
-                <code>&lt;tr&gt;</code> stands for <strong>table data</strong>. For more thorough reading as always you
+                    target="_blank" rel="noopener noreferrer">freecodecamp</a> <code class="highlighted">&lt;tr&gt;</code> means
+                <strong>table row</strong>,<code class="highlighted">&lt;th&gt;</code> is <strong>table head</strong> and
+                <code class="highlighted">&lt;tr&gt;</code> stands for <strong>table data</strong>. For more thorough reading as always you
                 can read at <a href="http://https://www.w3schools.com/html/html_tables.asp" target="_blank"
                     rel="noopener noreferrer">this link</a></p>
         </div>

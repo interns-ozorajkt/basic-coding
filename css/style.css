@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+.font-grey {
+    color: #343a42;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    /* margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto; */
+
+}
+h1 {
+    color: #fff;
+    text-decoration: underline;
+    background-color:DodgerBlue;
+    margin-bottom: 15px;
+    
+}
+p {
+    font-size: 28px;
+}
+.font-blue {
+    color: blue;
+}
+#banner {
+    height: 500px;
+    width: 100%;
+    background-image: url(../xyz-zoo/img/lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.column-left, .column-right {
+    height: 350px;
+    font-size: 48px;
+    width: 49%;
+}
+.column-left {
+    background: #f590f1;
+}
+.column-right {
+    background: #e8a343;
+}
+#project {
+    display: flex;
+    flex-wrap: wrap;
+    /* space-between untuk jarak di tengah */
+    justify-content: space-between;
+}
+#project a {
+    text-decoration: none;
+    display: flex;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    /* center untuk rata tengah */
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        padding: 0 10px;
+    
+    }
+    .column-left, .column-right {
+        width: 100%;
+    }
+}

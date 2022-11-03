@@ -54,6 +54,12 @@ p {
 .column-left {
     background: #f590f1;
 }
+.column-left:hover {
+    background: #000;
+}
+#project .column-left:hover a{
+    color: #fff;
+}
 .column-right {
     background: #e8a343;
 }
